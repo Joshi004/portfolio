@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                 8+ years architecting scalable systems from startup MVPs to enterprise applications 
                 processing 10M+ daily events. I take projects from 
                 <span className="font-semibold text-gray-900"> concept to production</span> with 
-                complete technical ownership.
+                complete technical ownership.Currently working on  <span className="font-semibold text-blue-600"> AI powered high frequency Algorithmic Trading Application</span>
               </p>
             </div>
 

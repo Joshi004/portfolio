@@ -1,27 +1,27 @@
 import React from 'react';
-import { Award, Users, TrendingUp, Zap } from 'lucide-react';
+import { Code, Rocket, Users, Zap } from 'lucide-react';
 
 const About: React.FC = () => {
-  const achievements = [
+  const highlights = [
     {
-      icon: TrendingUp,
-      title: "60% Cost Reduction",
-      description: "Delivered significant cost reductions at Pramata through architecture optimization"
+      icon: Code,
+      title: "Full-Stack Expertise",
+      description: "End-to-end development from frontend to backend, databases to deployment"
     },
     {
-      icon: Award,
-      title: "0→Production Expert",
-      description: "Complete SDLC ownership from requirement gathering to scalable deployment"
+      icon: Rocket,
+      title: "Startup to Enterprise",
+      description: "Scaled applications from MVP to millions of users across different domains"
     },
     {
       icon: Users,
-      title: "Startup Tech Leader",
-      description: "Single-person tech stack ownership for rapid MVP to market deployment"
+      title: "Technical Leadership",
+      description: "Led teams and architected systems processing millions of events daily"
     },
     {
       icon: Zap,
-      title: "High-Scale Systems",
-      description: "Architected systems processing 10+ million daily events"
+      title: "Performance Optimization",
+      description: "Delivered 60% cost reductions and 70% performance improvements"
     }
   ];
 
@@ -30,7 +30,7 @@ const About: React.FC = () => {
       <div className="container-max section-padding">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-secondary-900 mb-6">
-            Professional Summary
+            About Me
           </h2>
           <div className="w-24 h-1 bg-primary-600 mx-auto mb-8"></div>
         </div>
@@ -39,39 +39,22 @@ const About: React.FC = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <h3 className="text-2xl md:text-3xl font-bold text-secondary-900 mb-6">
-              Full-Stack Architect & Startup Tech Leader
+              Transforming Ideas into Scalable Solutions
             </h3>
             
             <p className="text-lg text-secondary-700 leading-relaxed">
-              Experienced Lead Software Engineer with around 8 years of industry experience and 3 years 
-              of success architecting and leading Event Driven solutions including AI-Powered 
-              High-Frequency Algorithmic Trading Systems that handle millions of messages per day.
+              I'm a passionate Lead Software Engineer with 8+ years of experience building 
+              systems that matter. From high-frequency trading platforms to enterprise contract 
+              management systems, I've architected solutions that handle millions of operations daily.
             </p>
 
             <p className="text-lg text-secondary-700 leading-relaxed">
-              <strong className="text-secondary-900">From Startup MVP to Enterprise Scale:</strong> I specialize in creating applications 
-              from scratch and shepherding them through the complete development lifecycle to highly scalable 
-              production systems. My deep understanding spans requirement gathering, architecture design, 
-              development, testing, DevOps, and CI/CD deployment.
+              What sets me apart is my ability to take complete ownership of the technology stack - 
+              whether it's a startup needing rapid MVP development or an enterprise requiring 
+              complex system architecture. I bridge the gap between business needs and technical solutions.
             </p>
 
-            <p className="text-lg text-secondary-700 leading-relaxed">
-              <strong className="text-secondary-900">Perfect for Startup Builders:</strong> As a one-person tech powerhouse, 
-              I can single-handedly handle your entire technology stack - from frontend to backend, 
-              database design to cloud deployment, ensuring your startup gets to market faster while 
-              building on a foundation that scales with your growth.
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-4">
-              <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                0 → Production
-              </span>
-              <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                Startup Tech Leadership
-              </span>
-              <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                Full-Stack Development
-              </span>
+            <div className="flex flex-wrap gap-3 pt-4">
               <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
                 Event-Driven Architecture
               </span>
@@ -79,23 +62,26 @@ const About: React.FC = () => {
                 AI & Machine Learning
               </span>
               <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+                System Design
+              </span>
+              <span className="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
                 DevOps & CI/CD
               </span>
             </div>
           </div>
 
-          {/* Right Content - Achievements */}
+          {/* Right Content - Highlights */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {achievements.map((achievement, index) => (
+            {highlights.map((highlight, index) => (
               <div key={index} className="card p-6 text-center hover:scale-105 transition-all duration-300">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-100 text-primary-600 rounded-full mb-4">
-                  <achievement.icon size={32} />
+                  <highlight.icon size={32} />
                 </div>
                 <h4 className="text-lg font-bold text-secondary-900 mb-2">
-                  {achievement.title}
+                  {highlight.title}
                 </h4>
                 <p className="text-secondary-600 text-sm">
-                  {achievement.description}
+                  {highlight.description}
                 </p>
               </div>
             ))}
