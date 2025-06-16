@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dd371d8d.css",
-    "main.js": "/portfolio/static/js/main.06a09db0.js",
+    "main.css": "/portfolio/static/css/main.7098b610.css",
+    "main.js": "/portfolio/static/js/main.e8ec3657.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/ats_logo.png": "/portfolio/static/media/ats_logo.a12c813d34a3423944ef.png",
+    "static/media/deleteme.png": "/portfolio/static/media/deleteme.d2d23c2ce152c3e2f4a1.png",
+    "static/media/apple.jpg": "/portfolio/static/media/apple.d9838f88c1bb5daea860.jpg",
     "index.html": "/portfolio/index.html",
-    "main.dd371d8d.css.map": "/portfolio/static/css/main.dd371d8d.css.map",
-    "main.06a09db0.js.map": "/portfolio/static/js/main.06a09db0.js.map",
+    "main.7098b610.css.map": "/portfolio/static/css/main.7098b610.css.map",
+    "main.e8ec3657.js.map": "/portfolio/static/js/main.e8ec3657.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd371d8d.css",
-    "static/js/main.06a09db0.js"
+    "static/css/main.7098b610.css",
+    "static/js/main.e8ec3657.js"
   ]
 }
