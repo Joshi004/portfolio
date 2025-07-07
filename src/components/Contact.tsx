@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Github, ExternalLink, Code, Trophy, MapPin } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, ExternalLink, Code, Trophy, MapPin, Calendar } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const contactInfo = [
@@ -186,19 +186,28 @@ const Contact: React.FC = () => {
             Whether you're looking for a lead engineer, need consultation on system architecture, 
             or want to discuss the latest in AI and event-driven systems, I'd love to hear from you.
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="mailto:thinkjoshi@gmail.com" 
-              className="inline-flex items-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-secondary-100 transition-colors duration-200"
+              className="inline-flex items-center px-6 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-secondary-100 transition-colors duration-200"
             >
               <Mail size={20} className="mr-2" />
               Send Email
             </a>
             <a 
+              href="https://calendar.app.google/dQLZJipaJqHV9gge8" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-600 transition-colors duration-200"
+            >
+              <Calendar size={20} className="mr-2" />
+              Schedule Meeting
+            </a>
+            <a 
               href="https://www.linkedin.com/in/naresh-joshi-004" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-600 transition-colors duration-200"
+              className="inline-flex items-center px-6 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary-600 transition-colors duration-200"
             >
               <Linkedin size={20} className="mr-2" />
               Connect on LinkedIn

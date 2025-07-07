@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, Mail, Phone, Linkedin, Github, Code, Rocket, Users } from 'lucide-react';
+import { ChevronDown, Mail, Phone, Linkedin, Github, Code, Rocket, Users, Calendar } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -58,10 +58,13 @@ const Hero: React.FC = () => {
                   Get In Touch
                 </a>
                 <a 
-                  href="#experience" 
-                  className="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                  href="https://calendar.app.google/dQLZJipaJqHV9gge8" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors duration-200 hover:border-blue-300 hover:text-blue-600"
                 >
-                  View My Work
+                  <Calendar size={18} />
+                  Schedule a Call
                 </a>
               </div>
 
